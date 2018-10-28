@@ -12,3 +12,6 @@ rake db:seed
 
 rails s
 ```
+
+To run on production, please visit heroku link:
+https://fitness-app-calendar-blog.herokuapp.com/
