@@ -1,24 +1,14 @@
-# README
+# Fitness Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* The application is created to help you to utilize the free time in your schedule to carve out regular exercise and workout sessions.
+* It has also a food diary app, which is basically a journal where you can keep track of what you eat each day.
+* Visit the best healthy living blog for recipes, tips, and exercises.
 
-Things you may want to cover:
+To run application on your local development:
+```ruby
+rake db:migrate
 
-* Ruby version
+rake db:seed
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails s
+```
