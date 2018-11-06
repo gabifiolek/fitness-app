@@ -6,12 +6,19 @@
 
 To run application on your local development:
 ```ruby
-rake db:migrate
+rails db:migrate
 
-rake db:seed
+rails db:seed
 
 rails s
 ```
 
-To run on production, please visit heroku link:
+To run application changes on production:
+```ruby
+heroku run rails db:migrate
+
+heroku run rails db:seed
+```
+
+To check changes, visit heroku link:
 https://fitness-app-calendar-blog.herokuapp.com/
